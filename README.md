@@ -138,5 +138,4 @@ builds with API/compiler/ML smoke tests, on every push
 
 - Set `NODE_ENV=production` and a private `JWT_SECRET`.
 - Set `FRONTEND_URL` to the site's address, not `*`.
-- The rate limiter keeps its counts in memory, which suits one backend process. With
-  several processes, rate-limit at the proxy instead.
+- The rate limiter keeps its counts in memory, which suits one backend process. With several processes, rate-limit at the proxy instead. 
